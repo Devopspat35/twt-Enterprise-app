@@ -7,7 +7,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Think-with-tech</title>
-<link href="${mithunlogo}" rel="icon">
 </head>
 </head>
 <body>
