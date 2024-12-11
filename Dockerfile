@@ -1,5 +1,3 @@
 FROM tomcat:latest
-RUN apt update
-WORKDIR $CATALINA_HOME/webapps/
-COPY sample.war $CATALINA_HOME/webapps/twtech-app.war
-EXPOSE 8080
+
+COPY target/*.war /usr/local/tomcat/webapps/twtech.war
